@@ -1,7 +1,7 @@
 Package: flightplanning
 Type: Package
 Title: UAV Flight Planning
-Version: 0.7.2
+Version: 0.8.0
 Authors@R: c(
   person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = c("aut", "cre")),
   person("Danilo Roberti Alves de", "Almeida", email = "daniloflorestas@gmail.com", role = c("aut")),
@@ -10,7 +10,7 @@ Authors@R: c(
   person("Evandro Orfanó", "Figueiredo", email = "evandro.figueiredo@embrapa.br", role = c("aut")))
 Description: Utility functions for creating flight plans for unmanned aerial vehicles (UAV), specially for the Litchi Hub platform. It calculates the flight and camera settings based on the camera specifications, exporting the flight plan CSV format ready to import into Litchi Hub.
 Imports: graphics, grDevices, methods, rgdal, rgeos, sp
-Depends: R (>= 3.0)
+Depends: R (>= 3.5.0)
 Suggests: testthat
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -18,6 +18,8 @@ LazyData: true
 RoxygenNote: 6.1.1
 URL: https://github.com/caiohamamura/flightplanning-R.git
 BugReports: https://github.com/caiohamamura/flightplanning-R/issues
+NeedsCompilation: no
+Packaged: 2020-03-11 17:29:50 UTC; travis
 Author: Caio Hamamura [aut, cre],
   Danilo Roberti Alves de Almeida [aut],
   Daniel de Almeida Papa [aut],
@@ -25,9 +27,4 @@ Author: Caio Hamamura [aut, cre],
   Evandro Orfanó Figueiredo [aut]
 Maintainer: Caio Hamamura <caiohamamura@gmail.com>
 Repository: CRAN
-Repository/R-Forge/Project: flightplanning
-Repository/R-Forge/Revision: 8
-Repository/R-Forge/DateTimeStamp: 2019-08-01 22:51:09
-Date/Publication: 2019-08-06 09:20:02 UTC
-NeedsCompilation: no
-Packaged: 2019-08-01 23:10:13 UTC; rforge
+Date/Publication: 2020-03-13 07:20:05 UTC
