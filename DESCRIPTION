@@ -1,7 +1,7 @@
 Package: flightplanning
 Type: Package
 Title: UAV Flight Planning
-Version: 0.8.3
+Version: 0.8.4
 Authors@R: c(
   person("Caio", "Hamamura", email = "caiohamamura@gmail.com", role = c("aut", "cre")),
   person("Danilo Roberti Alves de", "Almeida", email = "daniloflorestas@gmail.com", role = c("aut")),
@@ -26,8 +26,8 @@ Author: Caio Hamamura [aut, cre],
 Maintainer: Caio Hamamura <caiohamamura@gmail.com>
 Repository: CRAN
 Repository/R-Forge/Project: flightplanning
-Repository/R-Forge/Revision: 16
-Repository/R-Forge/DateTimeStamp: 2020-10-29 02:19:44
-Date/Publication: 2020-10-29 05:30:02 UTC
+Repository/R-Forge/Revision: 17
+Repository/R-Forge/DateTimeStamp: 2021-02-23 14:15:25
+Date/Publication: 2021-02-24 09:40:02 UTC
 NeedsCompilation: no
-Packaged: 2020-10-29 02:48:16 UTC; rforge
+Packaged: 2021-02-23 14:27:09 UTC; rforge
